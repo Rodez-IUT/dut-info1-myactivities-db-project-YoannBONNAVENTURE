@@ -11,3 +11,4 @@
     WHERE modification_date < old_date
     RETURNING activity;
     $$
+    LANGUAGE SQL;
